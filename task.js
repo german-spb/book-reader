@@ -15,6 +15,7 @@ function toggleActive(e) {
     }
     if (this.getAttribute('data-size') === 'big'){
         bookFs.classList.add('book_fs-big')
+        bookFs.classList.remove('book_fs-small')
         e.preventDefault()  
     }
 }
